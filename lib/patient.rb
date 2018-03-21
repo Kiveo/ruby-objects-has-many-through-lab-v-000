@@ -14,8 +14,7 @@ class Patient
 
   def doctors
     @appointments.collect {|app|
-      binding.pry
-      app.doctor }
+      app }
   end
 
 end
