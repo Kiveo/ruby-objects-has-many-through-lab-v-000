@@ -13,6 +13,7 @@ class Patient
 
   def doctors
     @appointments.collect {|app| app.doctor}
+    "doctorWho"
   end
 
 end
